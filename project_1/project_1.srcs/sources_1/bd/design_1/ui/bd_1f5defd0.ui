@@ -1,0 +1,86 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port rst_0 -pg 1 -y -10 -defaultsOSRD
+preplace port clk_0 -pg 1 -y 100 -defaultsOSRD
+preplace inst WB_stage_0 -pg 1 -lvl 11 -y 130 -defaultsOSRD
+preplace inst EXE_stage_0 -pg 1 -lvl 7 -y 140 -defaultsOSRD
+preplace inst StatusRgister_0 -pg 1 -lvl 6 -y 490 -defaultsOSRD
+preplace inst EXE_stage_reg_0 -pg 1 -lvl 8 -y 140 -defaultsOSRD
+preplace inst Hazard_Unit_0 -pg 1 -lvl 8 -y -230 -defaultsOSRD
+preplace inst MEM_stage -pg 1 -lvl 9 -y 140 -defaultsOSRD
+preplace inst MEM_stage_reg_0 -pg 1 -lvl 10 -y 140 -defaultsOSRD
+preplace inst ID_stage_reg_0 -pg 1 -lvl 5 -y 200 -defaultsOSRD
+preplace inst IF_Stage -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace inst ID_stage_0 -pg 1 -lvl 4 -y 340 -defaultsOSRD
+preplace inst IF_stage_reg_0 -pg 1 -lvl 3 -y 230 -defaultsOSRD
+preplace netloc WB_stage_0_wb_value 1 3 9 1040 -70 NJ -70 NJ -70 NJ -70 NJ -70 NJ -70 NJ -70 NJ -70 4510
+preplace netloc EXE_stage_0_val_rm_out 1 7 1 2760
+preplace netloc EXE_stage_0_mem_write_out 1 7 1 2770
+preplace netloc EXE_stage_reg_0_mem_write_out 1 7 2 2870 -90 3290J
+preplace netloc ID_stage_0_wb_enable 1 4 1 1510
+preplace netloc ID_stage_0_src2 1 4 4 1490 -180 N -180 N -180 N
+preplace netloc ID_stage_0_status_update 1 4 1 1530
+preplace netloc ID_stage_0_two_src 1 4 4 1480 -160 NJ -160 NJ -160 NJ
+preplace netloc ID_stage_reg_0_dest_reg_out 1 5 2 2020 270 NJ
+preplace netloc MEM_stage_reg_0_alu_result_out 1 10 1 4180
+preplace netloc debouncer_0_SIGNAL_O 1 0 10 N -10 100 200 620 120 1010 90 1410 -50 2040 -30 2350 -60 2850 -30 3320 10 3680
+preplace netloc ID_stage_reg_0_status_out 1 5 2 2060 280 2380J
+preplace netloc ID_stage_0_dest_reg 1 4 1 1540
+preplace netloc clk_0_1 1 0 10 N 100 110 190 580 100 1000 70 1420 -40 2050 -40 2380 -50 2840 -20 3310 0 3690
+preplace netloc EXE_stage_0_dest_out 1 7 1 2790
+preplace netloc ID_stage_reg_0_wb_enable_out 1 5 2 2000 240 2360J
+preplace netloc MEM_stage_0_mem_out 1 9 1 3690
+preplace netloc EXE_stage_0_mem_read_out 1 7 1 2780
+preplace netloc ID_stage_reg_0_status_update_out 1 5 1 1990
+preplace netloc ID_stage_0_mem_read 1 4 1 1470
+preplace netloc IF_stage_reg_0_instruction 1 3 1 970
+preplace netloc MEM_stage_alu_result_out_0 1 9 1 3660
+preplace netloc MEM_stage_reg_0_dest_out 1 10 1 4160
+preplace netloc MEM_stage_reg_0_mem_out 1 10 1 4160
+preplace netloc EXE_stage_reg_0_wb_en_out 1 8 1 NJ
+preplace netloc EXE_stage_reg_0_alu_result_out 1 8 1 3300J
+preplace netloc ID_stage_reg_0_imm_out 1 5 2 2030 260 2370
+preplace netloc ID_stage_reg_0_pc_out 1 5 2 NJ 50 N
+preplace netloc ID_stage_0_branch_taken 1 4 1 1520
+preplace netloc ID_stage_0_shift_operand 1 4 1 1550
+preplace netloc MEM_stage_0_dest_out 1 9 1 3670
+preplace netloc ID_stage_reg_0_val_rm_out 1 5 2 N 90 N
+preplace netloc ID_stage_0_val_rm 1 4 1 1440
+preplace netloc IF_stage_reg_0_pc 1 3 1 990
+preplace netloc MEM_stage_reg_0_mem_read_out 1 10 1 4170
+preplace netloc ID_stage_0_val_rn 1 4 1 1430
+preplace netloc IF_Stage_pcpipe_0 1 2 1 590
+preplace netloc WB_stage_0_wb_en_out 1 3 9 1030 -360 NJ -360 NJ -360 NJ -360 NJ -360 NJ -360 NJ -360 NJ -360 4520
+preplace netloc Hazard_Unit_0_Hazard 1 1 8 120 220 610J 110 980J -80 NJ -80 NJ -80 NJ -80 NJ -80 3280
+preplace netloc MEM_stage_0_wb_en_out 1 9 1 3670
+preplace netloc EXE_stage_reg_0_val_rm_out 1 8 1 NJ
+preplace netloc ID_stage_reg_0_shift_operand_out 1 5 2 N 250 2350
+preplace netloc ID_stage_0_exe_cmd 1 4 1 1450
+preplace netloc ID_stage_0_pc_out 1 4 1 1420
+preplace netloc WB_stage_0_dest_out 1 3 9 1020 -370 NJ -370 NJ -370 NJ -370 NJ -370 NJ -370 NJ -370 NJ -370 4530
+preplace netloc EXE_stage_reg_0_dest_out 1 7 2 2860 -100 3330J
+preplace netloc ID_stage_reg_0_signed_imm_24_out 1 5 2 2010 170 N
+preplace netloc EXE_stage_0_branch_address 1 1 7 130 -100 N -100 N -100 N -100 N -100 N -100 2830
+preplace netloc ID_stage_0_imm 1 4 1 1570
+preplace netloc EXE_stage_0_wb_en_out 1 7 1 2820
+preplace netloc MEM_stage_0_mem_read_en 1 9 1 3680
+preplace netloc EXE_stage_reg_0_mem_read_out 1 8 1 3280J
+preplace netloc EXE_stage_0_status_bits1 1 5 3 2070 -90 N -90 2810
+preplace netloc ID_stage_reg_0_exe_cmd_out 1 5 2 N 110 N
+preplace netloc ID_stage_0_mem_write 1 4 1 1500
+preplace netloc ID_stage_0_signed_imm_24 1 4 1 1560
+preplace netloc IF_stage_0_instruction 1 2 1 570
+preplace netloc StatusRgister_0_status 1 3 4 1040 550 1580J 580 NJ 580 2370
+preplace netloc EXE_stage_0_alu_result 1 7 1 2800
+preplace netloc ID_stage_reg_0_mem_read_out 1 5 2 N 130 N
+preplace netloc ID_stage_reg_0_val_rn_out 1 5 2 NJ 70 N
+preplace netloc MEM_stage_reg_0_wb_en_out 1 10 1 4150
+preplace netloc ID_stage_reg_0_branch_taken_out 1 1 5 130 210 600J 60 NJ 60 1500J -60 1990
+preplace netloc ID_stage_reg_0_mem_write_out 1 5 2 N 150 N
+preplace netloc ID_stage_0_src1 1 4 4 1460 -200 N -200 N -200 N
+levelinfo -pg 1 -80 80 420 810 1240 1790 2220 2580 3080 3510 3990 4360 4560 -top -460 -bot 950
+"
+}
+0

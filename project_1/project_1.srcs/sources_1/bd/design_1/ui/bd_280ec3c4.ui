@@ -1,0 +1,38 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port wb_en_in -pg 1 -y 170 -defaultsOSRD
+preplace port rst_0 -pg 1 -y 20 -defaultsOSRD
+preplace port mem_write -pg 1 -y 80 -defaultsOSRD
+preplace port clk_0 -pg 1 -y -10 -defaultsOSRD
+preplace port wb_en_out -pg 1 -y 120 -defaultsOSRD
+preplace port mem_read -pg 1 -y 50 -defaultsOSRD
+preplace port mem_read_en -pg 1 -y 90 -defaultsOSRD
+preplace portBus dest_in -pg 1 -y 200 -defaultsOSRD
+preplace portBus val_rm -pg 1 -y 140 -defaultsOSRD
+preplace portBus dest_out -pg 1 -y 150 -defaultsOSRD
+preplace portBus mem_out -pg 1 -y 60 -defaultsOSRD
+preplace portBus alu_result_out_0 -pg 1 -y 30 -defaultsOSRD
+preplace portBus alu_result -pg 1 -y 110 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 1 -y 380 -defaultsOSRD
+preplace inst dist_mem_gen_0 -pg 1 -lvl 2 -y 320 -defaultsOSRD
+preplace inst MEM_stage_0 -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace netloc EXE_stage_reg_0_mem_write_out 1 0 2 NJ 80 180
+preplace netloc debouncer_0_SIGNAL_O 1 0 2 NJ 20 220
+preplace netloc clk_0_1 1 0 2 NJ -10 210
+preplace netloc MEM_stage_0_mem_out 1 2 1 590J
+preplace netloc EXE_stage_reg_0_wb_en_out 1 0 2 NJ 170 N
+preplace netloc EXE_stage_reg_0_alu_result_out 1 0 2 -30J 130 N
+preplace netloc MEM_stage_0_dest_out 1 2 1 580J
+preplace netloc MEM_stage_0_wb_en_out 1 2 1 580J
+preplace netloc EXE_stage_reg_0_val_rm_out 1 0 2 NJ 140 190
+preplace netloc MEM_stage_0_alu_result_out 1 2 1 570
+preplace netloc EXE_stage_reg_0_dest_out 1 0 2 NJ 200 200
+preplace netloc MEM_stage_0_mem_read_en 1 2 1 NJ
+preplace netloc EXE_stage_reg_0_mem_read_out 1 0 2 NJ 50 190
+preplace netloc xlslice_0_Dout 1 1 1 220
+levelinfo -pg 1 -50 80 410 630 -top -110 -bot 440
+"
+}
+0

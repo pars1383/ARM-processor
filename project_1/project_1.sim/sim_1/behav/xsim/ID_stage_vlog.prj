@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../condition_check.v" \
+"../../../../../control_unit.v" \
+"../../../../../register_file.v" \
+"../../../../../ID_stage.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
